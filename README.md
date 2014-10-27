@@ -27,11 +27,13 @@ Install the command line tool globally by running:
 
 ## Options
 
-    -h, --help           output usage information
-    -v, --version        output the version number
-    -s, --size <size>    the size of the color palette
-    -i, --image          add image to output
-    -o, --output [type]  specify the output type: text, json, or html
+    -h, --help               output usage information
+    -v, --version            output the version number
+    -s, --size <size>        the target size of the color palette (might return +/- 2)
+    -q, --quality <quality>  the quality of the colors (0 is highest, 10 is default)
+    -i, --image              add image to output
+    -o, --output [type]      specify the output type: text, json, or html
+
 
 ## Examples
 
