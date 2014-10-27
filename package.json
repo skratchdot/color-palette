@@ -1,0 +1,51 @@
+{
+  "name": "color-palette",
+  "version": "1.0.0",
+  "description": "Get a color palette from a uri using phantomjs and color-thief",
+  "homepage": "http://skratchdot.com/projects/color-palette",
+  "preferGlobal": true,
+  "main": "./lib/cli.js",
+  "bin": {
+    "color-palette": "./lib/cli.js"
+  },
+  "author": "skratchdot",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skratchdot/color-palette.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skratchdot/color-palette/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "commander": "^2.5.0",
+    "mustache": "^0.8.2",
+    "onecolor": "^2.4.2",
+    "phantom": "^0.7.0",
+    "phantomjs": "^1.9.11"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "thief",
+    "file",
+    "image",
+    "png",
+    "jpg",
+    "gif",
+    "data",
+    "uri",
+    "url",
+    "phantomjs",
+    "color-palette",
+    "color-thief"
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-jshint": "^1.8.5",
+    "gulp-nodeunit": "0.0.5"
+  }
+}
