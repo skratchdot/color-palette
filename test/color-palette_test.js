@@ -114,7 +114,7 @@ exports['color-palette tests'] = {
 	'color-palette -o html ./files/lenna.png': function (test) {
 		test.expect(2);
 		exec(execPrefix + '-o html ' + __dirname + '/files/lenna.png', function (error, stdout, stderr) {
-			test.ok(/^\<html\>/.test(stdout.trim()), 'should start with an <html /> tag');
+			test.ok(/^<html>/.test(stdout.trim()), 'should start with an <html /> tag');
 			test.ok(/\&\#x2F\;test\&\#x2F;files\&\#x2F\;lenna\.png/.test(stdout), 'should contain the escaped resource name: ./test/files/lenna.png');
 			test.done();
 		});
