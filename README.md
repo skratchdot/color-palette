@@ -82,6 +82,18 @@ color-palette -i -j http://reddit.com > output.json
 due to the base64 encoded image data uri***
 
 
+## See Also
+
+- [Color Thief](http://lokeshdhakar.com/projects/color-thief/) - This is the library that 
+  I use to get palette information in the color-palette cli.
+- [Pictaculous](http://www.pictaculous.com/) - Upload an image and get it's palatte. They provide
+  a [free api](http://www.pictaculous.com/api/) as well. At some point I might integrate this API
+  into the color-palette cli.
+- [url2png](https://www.url2png.com/) - An API for taking screenshots of websites. Currently, I'm
+  using phantomjs for taking screenshots, but combining the url2png and pictaculous APIs would be
+  an alternative to using color-palette.
+
+
 ## License
 
 Copyright (c) 2014 skratchdot  
