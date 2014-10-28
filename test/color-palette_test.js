@@ -72,8 +72,8 @@ exports['color-palette tests'] = {
 			test.equal(error, null, 'should not have thrown a hard error');
 			test.ok(/Resource\: [^\n]*lenna\.png/.test(stdout), 'should have printed the resource name');
 			test.ok(/Success\: true/.test(stdout), 'should have been successful');
-			test.ok(/Dominant Color\: \#c4696a/.test(stdout), 'Dominant Color should have been #c4696a');
-			test.ok(/Palette\: \#d27770,\#e7c0a7,\#601c46,\#8e4361,\#b04450,\#892844,\#b591a7,\#c9554c,\#744984/.test(stdout), 'Palette was not correct');
+			test.ok(/Dominant Color\: \#c46869/.test(stdout), 'Dominant Color should have been #c46869');
+			test.ok(/Palette\: \#e8c1a7,\#601a45,\#c76262,\#8f4462,\#de9480,\#872844,\#b38daa,\#c77b88,\#cc640c/.test(stdout), 'Palette was not correct');
 			test.equal(stderr, '', 'stdout should be an empty string');
 			test.done();
 		});
@@ -105,7 +105,7 @@ exports['color-palette tests'] = {
 			test.ok(typeof result === 'object', 'result should be json');
 			test.ok(/\/test\/files\/lenna\.png$/.test(result.resource), 'result.resource should end with ./test/files/lenna.png');
 			test.equal(result.success, true, 'result.success should be true');
-			test.equal(result.dominantColor, '#c4696a', 'result.dominantColor should be #c4696a');
+			test.equal(result.dominantColor, '#c46869', 'result.dominantColor should be #c46869');
 			test.ok(util.isArray(result.palette), 'result.palette should be an array');
 			test.ok(result.palette.length, 'result.palette should have a positive length');
 			test.done();
