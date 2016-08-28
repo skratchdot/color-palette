@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "commander": "^2.5.0",
-    "mustache": "^0.8.2",
-    "onecolor": "^2.4.2",
-    "phantom": "^0.7.0",
-    "phantomjs": "^1.9.11"
+    "mustache": "^2.2.1",
+    "onecolor": "^3.0.4",
+    "phantom": "^2.1.20",
+    "phantomjs": "^2.1.7"
   },
   "keywords": [
     "color",
@@ -45,7 +45,7 @@
   ],
   "devDependencies": {
     "gulp": "^3.8.9",
-    "gulp-jshint": "^1.8.5",
+    "gulp-jshint": "^2.0.1",
     "gulp-nodeunit": "0.0.5"
   }
 }
