@@ -24,7 +24,7 @@
     "commander": "^2.5.0",
     "mustache": "^0.8.2",
     "onecolor": "^2.4.2",
-    "phantom": "^0.7.0",
+    "phantom": "^2.1.21",
     "phantomjs": "^1.9.11"
   },
   "keywords": [
